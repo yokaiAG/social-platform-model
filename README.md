@@ -17,11 +17,13 @@ One can find here three Python notebooks:
 We have used as input for the above programs, traces from:
 
    Twitter: freely available 1 https://www.kaggle.com/borisch/russian-election-2018-twitter
-   This trace comes from the Russian elections.
+   This trace comes from the Russian elections. It contains 181K active users, with 674K original Tweets and 1,27M Retweets.
    
    
    Weibo: freely available  https://aminer.org/influencelocality
-   This trace emphasizes on users that are highly retweeted and can be useful to study cascade effects.
+   This trace emphasizes on users that are highly retweeted and can be useful to study cascade effects. It contains 1,3M active users with 233K original posts and 33,3M Retweets. It was originally collected and used in the work:
+   
+   Jing Zhang, Biao Liu, Jie Tang, Ting Chen, and Juanzi Li. Social Influence Locality for Modeling Retweeting Behaviors. In Proceedings of the 23rd International Joint Conference on Artificial Intelligence (IJCAI'13). pp. 2761-2767.
 
 Some preprocessing - not included here - is necessary to bring the traces to the appropriate input form (per line):
 
