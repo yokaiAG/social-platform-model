@@ -11,7 +11,7 @@ One can find here three Python notebooks:
 
 (2) Notebook "SparseOSP": the notebook implements a sparse version of the solution, where matrices A, C and vectors b(i), d(i) are filled in in a sparse way, using dictionary structure. Also, matrix-vector multiplication profits from the appropriate choice of non-negative entries, and avoids unnecessary multiplications by zero. The program is designed to take as input the Leader Graph and the posting and re-posting activity rates of all the users, that can be estimated by real-world traces. The code can solve for millions of users. We have already tested it for traces with up to 6 Million users and tens of Millions of posts and reposts.
 
-(3) Notebook "OSPemul": this notebook takes as input a real-world trace from a social graph (e.g. Twitter, Weibo) and outputs the influence of each user over all others in the network, as this is calculated directly from the trace. Specifically, the influence of a user i on some other user j, is the percentage of time that posts of origin i are found on the first place of the Wall of user j. To derive the time-intervals of presence, we use the ordered timestamps of posts and reposts. 
+(3) Notebook "OSPemul": this notebook takes as input a real-world trace from a social graph (e.g. Twitter, Weibo) and outputs the influence of each user over all others in the network, as this is calculated directly from the trace. Specifically, the influence of a user i on some other user j, is the percentage of time that posts of origin i occupy the first place of the Wall of user j. To derive the time-intervals of post presence, we make use of the ordered timestamps of posts and reposts. 
 
 
 Enjoy!
