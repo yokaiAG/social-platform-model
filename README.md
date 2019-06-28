@@ -1,9 +1,9 @@
 # social-platform-model
 This repository contains the code related to the papers 
 
-  A. Giovanidis, B. Baynat, A. Vendeville - Performance Analysis of Online Social Platforms, INFOCOM 2019.
+   - A. Giovanidis, B. Baynat, A. Vendeville - Performance Analysis of Online Social Platforms, INFOCOM 2019.
   
-  A. Giovanidis, B. Baynat, C. Magnient, A. Vendeville - Ranking Online Social Users by their Influence, journal submission 2019.
+   - A. Giovanidis, B. Baynat, C. Magnient, A. Vendeville - Ranking Online Social Users by their Influence, journal submission 2019.
   
 There are three Python notebooks related:
 
@@ -14,4 +14,4 @@ There are three Python notebooks related:
 (3) Notebook "OSPemul": this notebook takes as input a real-world trace from a social graph (e.g. Twitter, Weibo) and outputs the influence of each user over all others in the network, as this is calculated directly from the trace. Specifically, the influence of a user i on some other user j, is the percentage of time that posts of origin i are found on the first place of the Wall of user j. To derive the time-intervals of presence, we use the ordered timestamps of posts and reposts. 
 
 
-Enjoy.
+Enjoy!
