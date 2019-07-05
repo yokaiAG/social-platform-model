@@ -13,6 +13,8 @@ One can find here three Python notebooks:
 
 (3) Notebook "OSPemul": this notebook takes as input a real-world trace from a social graph (e.g. Twitter, Weibo) and outputs the influence of each user over all others in the network, as this is calculated directly from the trace. Specifically, the influence of a user i on some other user j, is the percentage of time that posts of origin i occupy the first place of the Wall of user j. To derive the time-intervals of post presence, we make use of the ordered timestamps of posts and reposts. 
 
+(4) Notebook "SimulatorOSP": the notebook presents a discrete-event simulator, that can generate a synthetic trace of tweets in the form (tweetID, timestamp, userID, retweetID) that can be used as input for the other three notebooks. The Simulator can consider different inter-arrival distributions, as well as different post selection and eviction policies on the Walls and Newsfeeds. We use it to verify in the papers the validity of the model. 
+
 
 We have used as input for the above programs, traces from:
 
