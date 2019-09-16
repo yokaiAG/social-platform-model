@@ -5,7 +5,7 @@ This repository contains the code related to the papers
   
    - A. Giovanidis, B. Baynat, C. Magnien, A. Vendeville - Ranking Online Social Users by their Influence, journal submission 2019.
   
-One can find here three Python notebooks:
+One can find here four Python notebooks:
 
 (1) Notebook "Online+Social+Platform": we produce toy examples of social graphs (grid, ring) with a number of users $N<1000$, and associate each user with a posting and re-posting rate tuple ($\lambda_i$, $\mu_i$). We apply the solution method from the papers above, to derive the influence of each user over the Walls of all others in the network. The solution applies the matrix inversion method, as well as the iterative solution. In this program, the vectors and matrices use np.array matrix structure.
 
