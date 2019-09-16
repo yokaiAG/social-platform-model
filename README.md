@@ -18,7 +18,7 @@ One can find here four Python notebooks:
 
 We have used as input for the above programs, traces from:
 
-   Twitter: freely available 1 https://www.kaggle.com/borisch/russian-election-2018-twitter
+   Twitter: freely available  https://www.kaggle.com/borisch/russian-election-2018-twitter
    This trace comes from the Russian elections. It contains 181K active users, with 674K original Tweets and 1,27M Retweets.
    
    
