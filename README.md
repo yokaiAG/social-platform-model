@@ -3,7 +3,7 @@ This repository contains the code related to the papers
 
    - A. Giovanidis, B. Baynat, A. Vendeville - Performance Analysis of Online Social Platforms, INFOCOM 2019.
   
-   - A. Giovanidis, B. Baynat, C. Magnien, A. Vendeville - Ranking Online Social Users by their Influence, IEEE/ACM Transactions on Networking, 2021.
+   - A. Giovanidis, B. Baynat, C. Magnien, A. Vendeville - Ranking Online Social Users by their Influence, IEEE/ACM Transactions on Networking, 2021. DOI 10.1109/TNET.2021.3085201
   
 One can find here four Python notebooks:
 
